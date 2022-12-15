@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "incremental": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": [
+    "**/.eslintrc.cjs",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs"
+  ],
+  "exclude": ["node_modules", "build"]
+}

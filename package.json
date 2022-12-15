@@ -1,0 +1,11 @@
+{
+  "name": "t",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "Karl Horky",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
